@@ -31,5 +31,5 @@ for instance:
 ```
 runner('leastsquares',[3;3;3;3])
 ```
-
+If you want to add new problems of your own, you need to make sure the 'opt' can access function evaluation (case 0), gradient evaluation (case 1) and if needed by the algorithm Hessian evaluation (case 2). 
 
