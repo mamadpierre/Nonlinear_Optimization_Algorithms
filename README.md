@@ -11,7 +11,7 @@ This package contains basic MATLAB implementations of:
 7) Trust Region with Conjugate Gradient (CG) as Subproblem Solver
 8) SR1 update Trust Region with Conjugate Gradient (CG) as Subproblem Solver
 
-Implementations are based on: Nocedal, J., & Wright, S. J. (2006). Numerical optimization 2nd.
+Implementations are based on: **Nocedal, J., & Wright, S. J. (2006). Numerical optimization 2nd**.
 
 To run the opt.m optimizer you need to execute the following command in the directory of package:
 ```
