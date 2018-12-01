@@ -22,6 +22,11 @@ for instance:
 [x]= opt('rosenbrock',[1.8;3],'sr1trustregioncg',struct)
 [x]= opt('genhumps',[2;2;2;2;2],'newtonbacktrack',struct)
 ```
-For convinience there is a runner.m file containing 
+If you want to execute all the algorithms for a given problem and starting point, you may use runner.m:
+
+for instance:
+```
+runner('leastsquares',[3;3;3;3])
+```
 
 
