@@ -12,11 +12,16 @@ This package contains basic MATLAB implementations of:
 8) SR1 update Trust Region with Conjugate Gradient (CG) as Subproblem Solver
 
 Implementations are based on: Nocedal, J., & Wright, S. J. (2006). Numerical optimization 2nd.
-To run you need to:
+
+To run the 'opt' optimizer you need to execute the following command in the directory of package:
 ```
 output = opt('problem_name',starting_point,'algorithm',parameters)
 ```
-
+for instance:
+```
+[x]= opt('rosenbrock',[1.8;3],'sr1trustregioncg',struct)
+[x]= opt('genhumps',[2;2;2;2;2],'newtonbacktrack',struct)
+```
 For convinience there is a runner.m file containing 
 
 
