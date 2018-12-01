@@ -23,6 +23,9 @@ for instance:
 [x]= opt('genhumps',[2;2;2;2;2],'newtonbacktrack',struct)
 ```
 If you want to execute all the algorithms for a given problem and starting point, you may use runner.m:
+```
+runner('problem_name',starting_point)
+```
 
 for instance:
 ```
