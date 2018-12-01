@@ -38,6 +38,7 @@ runner('leastsquares',[3;3;3;3])
 2) If you wish to change the parameters defualt values, you may add them to structure before running the opt.m.
 for instance:
 ```
-struct.maxiter = 1e+5;
+struct.maxiter = 1e+5; % new iteration limit 
+struct.opttol = 1e-07; % new optimality tollerence 
 [x]= opt('genhumps',[2;2;2;2;2],'newtonbacktrack',struct)
 ```
