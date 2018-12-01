@@ -13,9 +13,9 @@ This package contains basic MATLAB implementations of:
 
 Implementations are based on: Nocedal, J., & Wright, S. J. (2006). Numerical optimization 2nd.
 To run you need to:
-'''
+```
 output = opt('problem_name',starting_point,'algorithm',parameters)
-'''
+```
 
 For convinience there is a runner.m file containing 
 
