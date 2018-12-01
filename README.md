@@ -1,5 +1,6 @@
 # Nonlinear_Optimization_Algorithms
-A MATLAB Package for Nonlinear Optimization Algorithms 
+A MATLAB Package for Nonlinear Optimization Algorithms
+
 This package contains basic MATLAB implementations of:
 1) Steepest Descent algorithm with backtracking
 2) Steepest Descent algorithm with Wolf-condition
