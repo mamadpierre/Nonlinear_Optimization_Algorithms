@@ -35,7 +35,7 @@ runner('leastsquares',[3;3;3;3])
 
 1) If you want to add new problems of your own, you need to make sure the 'opt' can access function evaluation (case 0), gradient evaluation (case 1) and if needed by the algorithm Hessian evaluation (case 2). 
 
-2) If you wish to change the parameters defualt values, you may add them to structure before running the opt.m.
+2) If you wish to change the parameters' defualt values, you may add them to structure before running the opt.m.
 for instance:
 ```
 struct.maxiter = 1e+5; % new iteration limit 
